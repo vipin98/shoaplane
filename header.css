@@ -1,0 +1,191 @@
+body{
+    
+    margin: 0px;
+}
+#topbar{
+    width:100%;
+    height: 90px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 200px;
+    padding-left:200px;
+    padding-right: 200px;
+    z-index: 9;
+    box-sizing: border-box;
+    box-shadow: 1px 1px   rgb(197, 175, 175);
+    position: fixed;
+    top: 0px;
+    overflow: hidden;
+    background-color: white;
+}
+#logo{
+    text-transform: uppercase;
+    font-size: 56px;
+}
+#logo > a{
+    color: black;
+}
+span{
+    font-weight: 900;
+}
+.topbar-item {
+    padding-left: 60px;
+    padding-right: 29px;
+    color: black;
+    font-size: 25px;
+     
+
+}
+#topbar a {
+text-decoration: none;
+ 
+}
+#topbar-left{
+    display: flex;
+    align-items: center;
+     
+}
+#topbar-right{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+#topbar-right i{
+    font-size: 30px;
+    color: black;
+    padding-left: 12px;
+     
+}
+#topbar-right img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   
+    padding-left: 52px;
+    text-align: center;
+     
+}
+#search-wrapper{
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+
+}
+#search-wrapper > i{
+    position: absolute;
+    color: #999;
+    font-size: 20px;
+    top: 50%;
+    left: 18px;
+    transform: translateY(-50%);
+    
+    
+}
+#search-box{
+    width: 100%;
+    border: 1px solid rgb(245, 242, 242);
+    background-color: rgb(245, 242, 242);
+    box-sizing: border-box;
+    padding: 10px 24px 8px 48px;
+    color: rgb(255, 247, 247);
+    outline: none;
+    border-radius: 16px;
+}
+
+#cart-wrapper{
+    position: relative;
+    /* margin-right: 32px; */
+}
+#cart-count {
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: 600;
+    background-color: crimson;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    
+}
+
+main {
+    width: 100%;
+    min-height: 80vh;
+    box-sizing: border-box;
+    margin-top: 100px;
+    padding-bottom: 8%;
+}
+ 
+
+#edyoda-projects-logo {
+    width: 128px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+footer{
+    background-color: #1c1b1e;
+  color: #fff;
+}
+#footer-main{
+    box-sizing: border-box;
+    padding: 4% 8%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ 
+.footer-heading{
+    font-weight: 600;
+  font-size: 16px;
+  color: white;
+  opacity: 0.9;
+  letter-spacing: 1px;
+}
+.footer-link{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 12px;
+    letter-spacing: 1px;
+  
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+@media (max-width: 1024px){
+     #topbar{
+         padding-right: 12px;
+         padding-left: 0;
+     }
+     
+
+}
+
+@media (max-width: 769px){
+    #topbar{
+        padding-left: 13px;
+    }
+    .topbar-item{
+        font-size: 15px;
+        padding-left: 15px;
+    }
+    #topbar-right img{
+        padding-left: 18px;
+    }
+    #topbar-right{
+        padding:0px;
+    }
+}
+@media (max-width: 600px) {
+    .footer-items {
+        margin-top: 10px;
+      }
+}
